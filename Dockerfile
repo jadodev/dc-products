@@ -8,7 +8,7 @@ RUN apk add --no-cache git
 WORKDIR /app
 
 # Clona el repositorio
-RUN git clone https://github.com/jadodev/crud-products.git .
+RUN git clone https://github.com/jadodev/crud-products .
 
 # Da permisos de ejecución al Gradle Wrapper
 RUN chmod +x gradlew
