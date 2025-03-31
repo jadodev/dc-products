@@ -9,9 +9,6 @@ CREATE TABLE IF NOT EXISTS product (
     avaible VARCHAR(50) NOT NULL,
     stock BIGINT NOT NULL,
     price DOUBLE PRECISION NOT NULL,
-    total_price DOUBLE PRECISION,
-    discount DOUBLE PRECISION,
-    create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE IF NOT EXISTS product_categories (
