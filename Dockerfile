@@ -1,4 +1,3 @@
-# Usa una imagen base con Java 17 y Gradle preinstalado
 FROM eclipse-temurin:17-jdk-alpine AS build
 
 # Instala Git y otras dependencias necesarias
